@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: #10101A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #10101A, #10101A );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #10101A, #10101A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.titulo{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+InputAlinear{
+ align-items: center;
+ height: 500;
+}
+
+.redondeado {
+  border-radius: 5px;
+  border-color: white;
+}
+.confondo {
+  background-color: transparent;
+}
+
+
+.inputText{
+  width: 250px;
+  padding: 12px 0px 12px 50px;
+  font-size: 16px;
+
+}
+
+  icon{
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+  }
+
+  input-group{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
